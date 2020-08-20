@@ -105,17 +105,18 @@ Your grade for this class will be determined by:
 * Project: Groups will be assigned.  You will be creating a video presentation
   of a "modern" algorithm.
 * Exams: We will give two oral exam questions throughout the semester.  You can
-  choose to take one, both or neither. Grading scale:  incomplete (0), 
-  low pass (+0.5), pass (+1), high pass (+2).  
+  choose to take one, both, or neither. Grading scale:  incomplete (0), low pass
+  (+0.5), pass (+1), high pass (+2).  
 * In-class Exercises: Each day that we have groupwork in class, you will get
-  credit: not present in groupwork (-1), pass (+1), high pass (+2).   (Note: for
-  the first week, not present in groupwork will be zero points instead of -1).
-* Miscellaneous: Opportunities to earn points by attending colloquia and other events
-  will be announced in class and posted on the course website.  To earn the
-  extra credit, you must attend
-  the entire presentation and write a one-to-two page summary and reflection on
-  the presentation(s).  For a list of EC assignments, see
-  [extra-credit.md](extra-credit.md)
+  credit: not present in groupwork (-1), low pass (+0.5), pass (+1), high pass
+  (+2).   (Note: for the first week, not present in groupwork will be zero
+  points instead of -1).
+* Miscellaneous: Opportunities to earn points by attending colloquia and other
+  events will be announced in class and posted on the course website.  To earn
+  the extra credit, you must attend the entire presentation and write a
+  one-to-two page summary and reflection on the presentation(s).  For a list of
+  EC assignments, see [extra-credit.md](extra-credit.md).  Credit will be: not
+  attempted (0), low pass (+0.5), pass (+1), high pass (+2).
 
 ## Class Policies
 
