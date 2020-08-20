@@ -242,7 +242,6 @@ drugs and/or alcohol and returning to your residence hall in a disruptive
 fashion- either via odor, noise, destruction, etc- can lead to residence life
 policy and alcohol or drug policy violations. Remember, not everyone wants to
 hear or smell you.
-```
 
 ## Resources
 
