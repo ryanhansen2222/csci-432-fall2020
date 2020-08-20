@@ -31,14 +31,15 @@ I am invited to give a seminar on ``Fostering Collaboration among Research
 Groups.''  On Monday, 24 August 2020, I will give a practice talk at 14:30. The
 audience for this talk is PhD students and postdocs who are in the AISES
 [Lighting the Pathway program](https://www.aises.org/content/lighting-pathway).
-So, as an audience member, please put on your improt had and pretend to be a PhD
-student interested in learning more about how to work in collaborations.  I
-invite questions during the talk (where you would try to ask questions that you
-could imagine that the participants would ask).  After the talk, I will request
-feedback from the audience. Any/all feedback is welcome.  By 12:00 on Tuesday,
-you must submit a one-page summary of your feedback.  What would work well is
-two bullet-point lists: one of what went well and one of what could be improved.
-(Note: usually, I would give one week for the write-up, but the actual seminar
-will be on Wednesday, 26 August, and I would look forward to improving my
-presentation based on your feedback).  Zoom link will be posted in the course
-discussion board over the weekend.  I expect this session will be 1.5 hours.
+So, as an audience member, please put on your improv hat and pretend to be a PhD
+student or postdoc interested in learning more about how to work in
+collaborations.  I invite questions during the talk (where you would try to ask
+questions that you could imagine that the participants would ask).  After the
+talk, I will request feedback from the audience. Any/all feedback is welcome.
+By 12:00 on Tuesday, you must submit a one-page summary of your feedback.  What
+would work well is two bullet-point lists: one of what went well and one of what
+could be improved.  (Note: usually, I would give one week for the write-up, but
+the actual seminar will be on Wednesday, 26 August, and I would look forward to
+improving my presentation based on your feedback).  Zoom link will be posted in
+the course discussion board over the weekend.  I expect this session will be 1.5
+hours.
