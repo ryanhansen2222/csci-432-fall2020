@@ -55,7 +55,7 @@ will be held via Zoom (please see email for links).  Please email or call
 your end and on our end).
 
 * Prof. Fasy: **TODO: decide**
-* TA: **TODO: update after assigned**
+* TA: Giorgio Morales Luna **TODO: decide**
 
 ## What is in this repository?
 
@@ -63,8 +63,8 @@ The folders in this repository contain all materials for this class.
   
 - README.md: the course syllabus
 
-- hw: homework assignments, as well as a LaTex template for your submissions. 
-- lec_notes: Copies of lecture notes. 
+- hw: homework assignments. 
+- lec_notes: Copies of lecture notes not posted publicly elsewhere. 
 - slides: Source for my Beamer slides (which only happens occasionally).
 
 The schedule is at the bottom of this Markdown file.  If you want to learn more
@@ -79,31 +79,43 @@ materials for this class.  See the resources section below for forking direction
 ## Other Course Tools 
 
 - Group discussions, questions, and announcements will be through TODO.
-- Homework will be graded on Gradescope.
+- Homework will be graded on Gradescope.  All homework should be posted both in
+  Gradescope and in D2L.
 
 ## Grading
 Your grade for this class will be determined by:
 
-- Homework
-- Group Project
-- Exams
-- In-class Exercises
+- Homework (min 25 / max 50 points)
+- Group Project (min 15 / max 30 points)
+- Exams (min 0 / max 4 points)
+- In-class Exercises (min 10 / max 20 points)
+- Miscellaneous (min 0 / max 6 points)
 
-**TODO: update percentages**
-
+* Yes ... that adds up to more than 100! This allows for you to adjust where you
+  put your effort in the class.  Hopefully this will help you focus on
+  practicing the skills, and not worrying about the point distribution.
+* Minimum points indicate the minimum points necessary to pass the class.
+* Maximum points indicate the maximum points allowed in that category.
+* The grading for this class is based on a "no grading" policy.  The theory here
+  is the more you practice, the better you will become!
 * Homework: All assignments must be submitted by 23:59 on the due date. Late
   assignments will not be accepted.  The submission should be typeset in the
-  template provided.
+  template provided.  Each homework will be graded on the following scale:
+  incomplete (-1), low pass (+0.5), pass (+1), high pass (+2).  
 * Project: Groups will be assigned.  You will be creating a video presentation
   of a "modern" algorithm.
-* Exams: **TODO** 
-* In-class Exercises: 
-* Opportunities to earn extra credit by attending colloquia and other events
+* Exams: We will give two oral exam questions throughout the semester.  You can
+  choose to take one, both or neither. Grading scale:  incomplete (0), 
+  low pass (+0.5), pass (+1), high pass (+2).  
+* In-class Exercises: Each day that we have groupwork in class, you will get
+  credit: not present in groupwork (-1), pass (+1), high pass (+2).   (Note: for
+  the first week, not present in groupwork will be zero points instead of -1).
+* Miscellaneous: Opportunities to earn points by attending colloquia and other events
   will be announced in class and posted on the course website.  To earn the
-  extra credit (typically five points towards a HW), you must attend
+  extra credit, you must attend
   the entire presentation and write a one-to-two page summary and reflection on
   the presentation(s).  For a list of EC assignments, see
-  [extra-credit.md](extra-credit.md) **TODO:post**
+  [extra-credit.md](extra-credit.md)
 
 ## Class Policies
 
@@ -122,15 +134,19 @@ forbidden. Note:
   your solutions when not in a group setting.  Groups should be small enough
   that each member plays a significant role. 
 
-### Classroom Etiquette
+### Zoom Classroom Etiquette
 
 Please come to class prepared by reading and working on homework problems
 throughout the week.  We welcome questions!  In the Zoom breakout rooms, we
-expect that you are actively working on problems.
+expect that you are actively working on problems.  If needed, start your group
+by recapping what was discussed right before going into the breakout room or
+during the class perioud before.  If something is unclear, ask for a
+clarification from your classmate.  If your group is unsure of what the task is,
+please ask and do not sit idle!
 
 ### Withdrawing
 
-After 15 October 2020, I will only support requests to withdraw from this course
+After 15 October 2020, we will only support requests to withdraw from this course
 with a ``W" grade if extraordinary personal circumstances exist.  If you are
 considering withdrawing from this class, discussing this with me as early as
 possible is advised.  Since this class involves a project, the decision to
@@ -160,6 +176,16 @@ If there are aspects of the design, instruction, and/or experiences within this
 course that result in barriers to your inclusion or accurate assessment of
 achievement, please notify the instructor as soon as possible and/or contact
 Disability Services or the Office of Institutional Equity.
+
+### Taking a Class during the COVID-19 Pandemic
+
+This class will be held synchronously online.  However, you (or your
+family/friends) might become ill with COVID-19 or something else, which can make
+even remote attendance difficult.  If this happens, please communicate with the
+instructor as soon as possible to minimize impact on your academic experience.
+Also, we welcome feedback throughout the semester about what is working well /
+not working well with the online delivery.  Doing so will help this be a better
+experience for all!
 
 ## MSU Policies
 
@@ -196,7 +222,7 @@ Conduct.  This includes the following academic expectations:
 - make and keep appointments when necessary to meet with the instructor. 
 
 
-## MSU Drug and Alcohol Policies
+## Drug and Alcohol Policies
 
 Per the Code of Conduct for students, no student may come to class under the
 influence of drugs or alcohol, as that would not be`Fostering a healthy, safe
@@ -245,19 +271,12 @@ Each week, we assign:
 ### Week 1 (18,20 August)
 
 - Topics: Intro to Analysis of Algorithms; Induction
-- Reading: TBD 
+- Reading: Chapter 0
 - Additional Reading: [Induction Review](https://www.cs.montana.edu/brittany/teaching/algorithms/15_fall/docs/induction.pdf)
+- Miro Boards: [Tuesday](https://miro.com/app/board/o9J_knOJFZ4=/) [Thursday](https://miro.com/app/board/o9J_knW0vyk=/)
 
 ### Remaining weeks will be posted shortly
 
-# A Note on COVID-19
-
-This class will be held synchronously online.  However, you (or your
-family/friends) might become ill with COVID-19 or something else, which can make
-even remote attendance difficult.  If this happens, please communicate with the
-instructors as soon as possible to minimize impact on your academic experience.
-Also, we welcome feedback throughout the semester about what is working well /
-not working well with the online delivery.
 
 --- 
 
