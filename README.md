@@ -55,7 +55,7 @@ will be held via Zoom (please see email for links).  Please email or call
 your end and on our end).
 
 * Prof. Fasy: **TODO: decide**
-* TA: Giorgio Morales Luna **TODO: decide**
+* TA: Giorgio Morales Luna. Monday: 1:00 - 2:00 pm. Webex link: https://montana.webex.com/meet/w63x712. E-mail: giorgiol.moralesluna@student.montana.edu 
 
 ## What is in this repository?
 
