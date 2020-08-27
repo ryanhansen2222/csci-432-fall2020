@@ -275,6 +275,10 @@ Each week, we assign:
 - Additional Reading: [Induction Review](https://www.cs.montana.edu/brittany/teaching/algorithms/15_fall/docs/induction.pdf)
 - Miro Boards: [Tuesday](https://miro.com/app/board/o9J_knOJFZ4=/) [Thursday](https://miro.com/app/board/o9J_knW0vyk=/)
 
+### Week 2 (25, 27 August)
+- Topics: Recursion, Recursion Invariants, Asymptotics
+- Reading: Chapter 1
+
 ### Remaining weeks will be posted shortly
 
 
