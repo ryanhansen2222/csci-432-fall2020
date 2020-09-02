@@ -25,7 +25,7 @@ specific formatting requirements:
   / collaborator in the future?
 * What is your take-away message from this event?
 
-## EC-1
+## Misc-01
 
 I am invited to give a seminar on ``Fostering Collaboration among Research
 Groups.''  On Monday, 24 August 2020, I will give a practice talk at 14:30. The
@@ -43,3 +43,17 @@ the actual seminar will be on Wednesday, 26 August, and I would look forward to
 improving my presentation based on your feedback).  Zoom link will be posted in
 the course discussion board over the weekend.  I expect this session will be 1.5
 hours.
+
+## Misc-02
+
+Due: 23 September 2020
+
+The 2020 ADSA Annual Meeting is free to attend (Oct 14-16). To register and for more information, see [here](https://academicdatascience.org/adsa-meetings/annual-meeting)
+
+If you would like to earn a point in the "Miscellaneous" category, you would need to attend + write a 3-page reflection (note: references, if you have them, don't count towards those three pages). This is an open-format submission. So, we welcome you to interpret "reflection" in the way that helps you get the most of this conference. Some suggestions are:
+
+* Attend several talks/sessions and write 1-pagraph summaries of the sessions.
+* Describe the relationship between material that we are covering / will cover in this class with what you see at the workshop. Be creative in finding those connections! They are there.
+* Attend one talk and go deeper. Research the speaker. Who are they? What is their background? Their biggest achievement? What did they talk about? Are there related papers that you can find?
+* Most of the virtual conferences have some form of networking. Network and share your experience with us. Who did you connect with? What did you talk about?
+* Describe why attending this conference was relevant to you.
