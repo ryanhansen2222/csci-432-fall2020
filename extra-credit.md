@@ -46,7 +46,7 @@ hours.
 
 ## Misc-02
 
-Due: 23 September 2020
+Due: 23 October 2020
 
 The 2020 ADSA Annual Meeting is free to attend (Oct 14-16). To register and for more information, see [here](https://academicdatascience.org/adsa-meetings/annual-meeting)
 
