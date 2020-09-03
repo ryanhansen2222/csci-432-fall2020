@@ -283,7 +283,7 @@ Each week, we assign:
 ### Week 3 (1,3 September)
 
 - Topics: Recursion, Termination, Partial Correctness, Master Theorem
-- Reading: Chapters 1 (cont.)
+- Reading: Chapters 1 (cont.) and Chapter 2
 
 ### Week 4 (8, 10 September)
 
