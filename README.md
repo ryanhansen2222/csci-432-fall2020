@@ -279,11 +279,13 @@ Each week, we assign:
 
 - Topics: Recursion, Recursion Invariants, Asymptotics
 - Reading: Chapter 1
+- HW-1 Due on 27 August
 
 ### Week 3 (1,3 September)
 
 - Topics: Recursion, Termination, Partial Correctness, Master Theorem
 - Reading: Chapters 1 (cont.) and Chapter 2
+- HW-2 Due on 3 September
 
 ### Week 4 (8, 10 September)
 
@@ -294,6 +296,7 @@ Each week, we assign:
 
 - Topics: Dynamic Programming 
 - Reading: Chapter 3
+- HW-3 Due on 17 September
 
 ### Week 6 (22,24 September)
 
@@ -304,6 +307,7 @@ Each week, we assign:
 
 - Topics: Greedy Algorithms
 - Reading: Chapter 4
+- HW-4 Due on 1 October
 
 ### Week 8 (6,8 October)
 
@@ -314,6 +318,7 @@ Each week, we assign:
 
 - Topics: More Graph Algorithms
 - Reading: Chapter 7
+- HW-5 Due on 12 October
 
 ### Week 10 (20,22 October)
 
@@ -324,6 +329,7 @@ Each week, we assign:
 
 - Topics: Max Flow / Min Cut
 - Reading: Chapter 10
+- HW-6 Due on 26 October
 
 ### Week 12 (3,5 November)
 
@@ -334,6 +340,7 @@ Each week, we assign:
 
 - Topics: Special Topic
 - Reading: TBD
+- HW-7 Due on 9 November
 
 ### Week 14 (17,19 November)
 
