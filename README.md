@@ -307,12 +307,12 @@ Each week, we assign:
 
 - Topics: Greedy Algorithms
 - Reading: Chapter 4
-- HW-4 Due on 1 October
 
 ### Week 8 (6,8 October)
 
 - Topics: Graph Algorithms
 - Reading: Chapters 5,6
+- HW-4 Due on 6 October
 
 ### Week 9 (13,15 October)
 
