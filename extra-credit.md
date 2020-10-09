@@ -57,3 +57,29 @@ If you would like to earn a point in the "Miscellaneous" category, you would nee
 * Attend one talk and go deeper. Research the speaker. Who are they? What is their background? Their biggest achievement? What did they talk about? Are there related papers that you can find?
 * Most of the virtual conferences have some form of networking. Network and share your experience with us. Who did you connect with? What did you talk about?
 * Describe why attending this conference was relevant to you.
+
+# 
+
+Date: 9 October 2020, 13:10
+Due: 16 October 2020
+
+Kristian Lum (bio: https://highlights.cis.upenn.edu/welcome-kristian-lum/) will
+be giving the keynote address this afternoon from 1:10 - 2 PM. The talk will
+focus on algorithmic fairness and social justice (additional details and zoom
+info: https://mt-chapter-asa.github.io/2020-meeting.github.io/).
+
+If you would like to earn a point in the "Miscellaneous" category, you would
+need to attend + write a 3-page reflection (note: references, if you have them,
+don't count towards those three pages). This is an open-format submission. So,
+we welcome you to interpret "reflection" in the way that helps you get the most
+of the talk. Some suggestions are:
+
+* Begin with a brief summary of what was presented.
+* Describe the relationship between material that we are covering / will cover
+  in this class with what you see at the workshop. Be creative in finding those
+  connections! They are there.
+* Go deeper. Research the speaker. Who are they? What is their background? Their
+  biggest achievement? What did they talk about? Are there related papers that
+  you can find?
+* Describe why attending this talk was relevant to you.
+* What questions were asked?  What questions do you have leaving the talk?
