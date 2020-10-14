@@ -52,6 +52,63 @@ My contributions are:
     \item (TODO: state the problem number, and date/time). TODO:
         copy the post here.
     \item ...
+    \item Chapter 3 question 21
+
+Problem: Pretend we are travelling on a straight line at constant speed, carrying some weight, droppnig off weight at designated stops. We want to minimize the weight times distance we travel before we drop off all the weight. The input is where we start, and the output is the sequence of stops we should visit.
+
+Solution: Brute force test all the options - For each stop, we have n-1 more choices for where to travel next. To calculate which path to take, we would need to build up a table of weight times distance values for each path. Then we can look them all up when needed when we test all options
+
+Runtime: Since we test all options, we have factorial runtime. We have n-1 options for the first stop, n -2 for the second, and all the way down the line.
+	\item
+		Chapter 3 question 6a
+
+Problem: We are given two initial strings and a final string. Our job is to find out if the final string is some 'shuffle' of the first string, which means some sequential mashup of the two original strings. The output is yes or no.
+
+Solution: We can basically just try all possibilities of how one of the original strings fits into the final string. If it doesnt fit, we fail, and otherwise we just check to see if the remaining letters create the initial other string. This is done super similarly to our largest increasing subsequence dynamic algorithm - for each letter, we either skip or try it based on whether or not that character exists in our small string.
+
+Algorithm:
+
+IsShuffle(small1, small2, large, skips):
+
+    query = large[0]
+
+    skip = IsShuffle(small1, small2, large[1,size(large)], skips.append(query))
+
+    keep = IsShuffle(smal1, small2, large[1, size(large), skips]
+
+    if( size(large) == 1 )
+
+        return skip == small2
+
+    else
+
+    return skip or keep
+
+Decrementing function: We will start with the number 2^n. Since the long string is only n characters long, and we have the option to skip or keep each character, ths is the number of operations we may have in total. Then we decrease the count by 1 each time, and we know when the algorithm reaches 0 we will have tried every single combination.
+
+Runtime:
+
+We have 2^n runtime because we try two options (skip or keep) for each character to try to match its output with one of the smaller words. When we find a word that matches, we test the reamining characters (in constant time) and check if indeed we have two matched words shuffled together
+\item Chapter 4, question 12 a
+
+Problem: We are given a list of numeric valued cards and two players have the option to pick from either end of the list to keep the card. The player is then awarded the numeric value of points. The goal is to get more points than your opponent. We are asked to prove the greedy approach fails
+
+Solution: Consider the sequence [0,1,2,1000,3]
+
+elmo picks 3, i pick 1000, so I win
+
+or
+
+i pick 0, elmo picks 3, I pick 1000, I win
+
+12 b)
+
+Problem) What is an algorithm that can calculate your score vs elmo?
+
+solution) Brute force try picking every optoion of card in a dynamic environment.
+
+Runtime) 2^n since we have 2 options each of our turns. Yes, techniccally it is 2^(n/2) since elmo is taking turns too.
+
 \end{enumerate}
 
 % ============================================
@@ -65,8 +122,17 @@ in your own words.  This should be a polished solution.
 \paragraph{Answer}
 % ============================================
 
-TODO: your answer goes between these lines
+Dream dollars - Chapter 3 question 1. 
 
+Problem: A new currency is proposed with horrible denominations. The goal is to give change with the minimum number of bills. Input- n dollars spent, output, a quantity of each amount of bills of change returned, using the fewest possible bills. 
+
+Solution: Start at 0 change, and build up a table of minimum numberof bills for each change value all the way up. When you reach a new number, try using one of each denomination and lookup the answer to the remaining amount of change. Then pick the smallest. 
+
+Algorithm: 
+
+Runtime justification: It will take up to $k$ (number of unique denominations) operations per change value below $c$, meaning we will have a linear time algorithm. It will compute $kc$ values per input.
+
+We have no big loops, just a for loop. 
 % ============================================
 
 \nextprob
@@ -82,8 +148,18 @@ and differences in the presentation and analysis of the algorithms.
 
 % ============================================
 
-TODO: your answer goes between these lines
+I choose subset sum.
 
+Textbook - it is a decision problem that solves whether or not a subset of a set sums to a given integer. We can define a recursive algorithm that runs in $2^n$ time considering all options. This can be improved upon with dynamic programming because each entry depends on at most two other entries - both entries in the next column. Basically it asks if we can sum to a given integer with the subset of everything to the right of a given number. Finally, we note the dynamic programming algorithm is only better when summin to smaller values. 
+
+Wikipedia - Decision problem dealing with a sorted set of numbers. It has an exponential time algorithm as well as a 'pseudo-poly' time dynamic programming solution. The logic of the algorithm is the same. 
+
+Geeksforgeeks - recursive exponential algorithm exists. The problem is a decision problem. Create a table data structure to store boolean values and fill in like we usually do dynamically. 
+
+
+Similarities: Problem definition, Existence of exponential algorithm, dynamic algorithm has same analysis basically. 
+
+Differences: The book and wikipedia lended an interpretation related to building a solution examining less of the problem at a time. Geeksforgeeks really encouraged the table data structure view. 
 % ============================================
 
 \end{document}
