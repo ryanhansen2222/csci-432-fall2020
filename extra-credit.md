@@ -206,6 +206,7 @@ of the talk. Some suggestions are:
 ## Misc-09
 
 Event Dates: 20 or 28 October
+Due Date: 4 November
 
 Attend one of the two ICERM lectures on voting and elections.
 
