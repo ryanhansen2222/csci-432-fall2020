@@ -203,3 +203,32 @@ of the talk. Some suggestions are:
 * Describe why attending this talk was relevant to you.
 * What questions were asked?  What questions do you have leaving the talk?
 
+## Misc-09
+
+Event Dates: 20 or 28 October
+Due Date: 4 November
+
+Attend one of the two ICERM lectures on voting and elections.
+
+Lecture 1: One Person, One Vote with Sharad Goe. Tuesday, 20 October at 15:00.
+https://www.brownpapertickets.com/event/4765449
+
+Lecture 2: Quantifying and Understanding Gerrymandering with Jonathan Christopher
+Mattingly. Wednesday, 28 October at 15:00.
+https://www.brownpapertickets.com/event/4784795
+
+To earn this misc. credit, write a 3-page reflection (note: references, if you have them,
+don't count towards those three pages). This is an open-format submission. So,
+we welcome you to interpret "reflection" in the way that helps you get the most
+of the talk. Some suggestions are:
+
+* Begin with a brief summary of what was presented.
+* Describe the relationship between material that we are covering / will cover
+  in this class with what you see at the workshop. Be creative in finding those
+  connections! They are there.
+* Go deeper. Research the speaker. Who are they? What is their background? Their
+  biggest achievement? What did they talk about? Are there related papers that
+  you can find?
+* Describe why attending this talk was relevant to you.
+* What questions were asked?  What questions do you have leaving the talk?
+
