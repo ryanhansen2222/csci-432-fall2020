@@ -45,6 +45,7 @@ My contributions are:
     \item (TODO: state the problem number, and date/time). TODO:
         copy the post here.
     \item ...
+    \item Yeah started too late not gonna do that
 \end{enumerate}
 
 % ============================================
@@ -57,8 +58,21 @@ alternative schedules.  However, you only need to hand in two:
 \begin{enumerate}
     \item Choose one alternate strategy that
         works, and prove that it works.
+
+		Option i)
+		Suppose we have an optimal solution that differs from our
+		greedy algorithm.  Suppose
+		we could exchange the option in our solution $x$ with two or more
+		courses (in the optimal), $y,z$. Since they are replacing our single course,
+		they must both conflict with $x$. We know our course contains no courses and ends last, meaning
+		$y,z$ starts before $x$. Thus $y,z$ conflict with eachother as well. Then the size of our solution is equal to the size of the optimal solution.
+		
     \item Choose one alternate strategy that does not work, and give a
         counter-example.
+
+	Option a) choosing the course x that ends last and discarding classes
+		that conflict is incorrect. The easy counterexample is if x
+		is super long and every other class is contained within x.
 \end{enumerate}
 
 \paragraph{Answer}
@@ -79,14 +93,62 @@ expected to provide:
 \begin{enumerate}
     \item Describe the problem in your own words, including
         describing what the input and output is.
+
+		Input is $X$, the set of intervals on the real line. Our output
+		is the minimal cover of $X$, $Y\subset X$, meaning the smallest subset of $X$
+		such that $\Cup_{x\in X} = \Cup_{y \in Y}$
     \item Describe, in paragraph form, the algorithm you propose.
+	    Build the solution from left to right greedily. Take the intervals
+		that end furthest right so long as their leftmost edge is left
+		enough.
     \item Provide a nicely formatted algorithm to solve the problem.
+\begin{algorithm}[H]
+ \KwData{Big Set, $X$}
+ \KwResult{Cover, $Y$}\\
+	$Y$ = 0\\
+
+	rightmost = argmax($X.right$)\\
+	leftmost = argmin($X.left$)\\
+
+
+	\While{leftmost.right $<$ rightmost.right}
+	{
+
+		Y.append(leftmost)\\
+		X.delete(leftmost)\\
+
+		\For{interval in $X$}
+		{
+			\If{interval.left $<$ leftmost.right or interval.left == min($X.left$}\\{leftmost = interval}
+			}
+			}
+
+ \caption{GreedyIntervalCover}
+\end{algorithm}
     \item Use a decrementing function to prove that algorithm terminates.
             OR  Give the runtime with justification.
+		$n^2$. We add one element of optimal value to our minimal set
+		each cycle, and there can be potentially every value in $Y$, so
+		we have $n$ number of potential rotations. Second, we loop through each element in $X$ each cycle, meaning we run in $O(n^2)$ time.
+		
     \item Prove partial correctness.  In other words, if there is a loop or
         recursion, what is the loop/recursion invariant? Provide the proof.
         (Note: you only need to do this for the outer-most loop if there are
         nested loops).
+
+		The outer loop here is the while loop. Its goal is to return
+		the minimal cover of $X$. The loop guard checks to see if we
+		reached the rightmost edge of $X$, meaning we finish. The loop
+		invariant is as follows - Y contains only elements of $X$ in 
+		its minimal cover, and the elements it does contain are the 
+		minimal cover from the leftmost edge of $X$ to the rightmost 
+		edge of $Y$ as a subset of $X$. 
+
+		Base case: $Y$ starts as empty, so it is trivially true.\\
+		Inductive step: Suppose $Y$ only contains elements in $X$s minimal cover. Since we know the minimal cover must contain every point in $X$, we know one of two things must happen. One, if the minimal cover is disjoint at the current boundary, we need the new leftmost unattained edge. Otherwise, we need a set that intersects the boundary. Otherwise, we will fail to have a cover. Then
+		we greedily search for sets that satisfy this property of largest rightmost edge. The greedy approach is justified from the exchange principle - If we exchanged the largest set with a smaller set in the optimal solution, we would find its unique data is a subset of the former, meaning
+		the modified $Y$  must indeed be a part of the left partial minimal cover as
+		described above. 
 \end{enumerate}
 
 
@@ -110,8 +172,11 @@ choose an example to illustrate working through the process.
 
 % ============================================
 
-TODO: your answer goes between these lines
-
+I did this super recently two times! So there is this google challenge called
+the foobar Ben sent me a link to. Two of its problems I solved with dynamic 
+programming. I thought about if a given of those problems had steps that build on each other. If it had some kind of ''generations" aspect where results depend on previous
+generations, I would start thinking dynamic programming. If I answer yes to the aforementioned question, I try to frame the
+problem either recursively or in the breadth first search queue implementation.
 % ============================================
 
 
@@ -127,7 +192,15 @@ taken 232 and 246, but not 432.
 
 % ============================================
 
-TODO: your answer goes between these lines
+Loop invariants and proving correctness of an algorithm. As a man of theory, I
+often think of methodologies for how to solve problems. Many of them work for
+most of the canonical cases, but there are occasionally edge cases that are super easy to miss. Proofs of correctness can do a good job to reveal weaknesses in your 
+implementations/reasoning and help guarantee you are doing what you want, which
+is awesome. Loop invariants are particularly interesting because often times
+you know what you want the loop to do, but stating precisely what it is doing
+is kind of tough. Being able to frame what the goal is, what is changing, and 
+how the change makes progress to your end goal is super cool and useful in 
+hashing out good code and problem solving!
 
 % ============================================
 
@@ -143,6 +216,8 @@ Please state your preference among the following:
 \begin{enumerate}
     \item You would like to do the standard project, and you know who you want
         to work with (let us know here).
+		Yes I want to work with Ben and Seth (I havent talked to them,
+		but they are great). The 5 algorithm solutions seems boring.
     \item You would like to do the standard project, but you would like us to
         assign your group.
     \item You would like to do the alternate assignment instead.
