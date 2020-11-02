@@ -31,14 +31,13 @@ and P-3 deadlines.
   us before this deadline for preliminary feedback. 
 * P-2: due 2 November. Demonstration of progress: Prepare a document outlining (a) what
   you have done so far and (b) what is left to be done.  The deliverable is a one-to-two 
-  page write-up (submitted as a PDF). 5 points.
+  page write-up (submitted as a PDF). 
 * P-3: 16 November.  Video presentations: Each group will 
   present their video in-class. You will have to introduce the video, and answer
   questions from fellow students. 
   In addition, each group member will turn in a one-page summary detailing their contributions,
   the strengths / weaknesses of their project, and explain one thing that would be
-  done differently if you could do it again. 40 points for video, 5 points for
-  personal reflection.
+  done differently if you could do it again. 
 * P-4: 24 November.  Peer evaluation: Everyone will fill out a survey about each
   prohject Your group will be responsible for synthesizing the feedback for one
   of the other groups. You will not be graded on 
