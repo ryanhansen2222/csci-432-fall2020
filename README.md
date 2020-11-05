@@ -333,6 +333,7 @@ Each week, we assign:
 
 ### Week 12 (3,5 November)
 
+- 3 November: Vote!!
 - Topics: Applications of Flows / Cuts
 - Reading: Chapter 11
 
