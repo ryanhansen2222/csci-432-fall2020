@@ -88,7 +88,7 @@ Your grade for this class will be determined by:
 - Homework (min 25 / max 50 points)
 - Group Project (min 15 / max 30 points)
 - Exams (min 0 / max 4 points)
-- In-class Exercises (min 10 / max 20 points)
+- In-class Exercises (min 10 / max 25 points)
 - Miscellaneous (min 0 / max 6 points)
 
 * Yes ... that adds up to more than 100! This allows for you to adjust where you
@@ -333,6 +333,7 @@ Each week, we assign:
 
 ### Week 12 (3,5 November)
 
+- 3 November: Vote!!
 - Topics: Applications of Flows / Cuts
 - Reading: Chapter 11
 

@@ -232,3 +232,13 @@ of the talk. Some suggestions are:
 * Describe why attending this talk was relevant to you.
 * What questions were asked?  What questions do you have leaving the talk?
 
+# Misc-10
+
+Due: Saturday, 7 November 2020
+
+Haloween is on 31 October.  Dress up as your favorite algorithm, and write a
+description of the algorithm and how you represented it in your costume in 1-2
+pages (with a picture, please!).  And, if you're not a fan of dressing up
+yourself, you are welcome to play costume designer for a friend, dress up your
+pet, or simply decorate your bedroom door or front porch to represent an
+algorithm of your choice.
