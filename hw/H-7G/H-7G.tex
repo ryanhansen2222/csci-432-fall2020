@@ -46,8 +46,40 @@ Chapter 7, Question 4, Part(a) (Maximum Weight Spanning Tree)
 \paragraph{Answer}
 
 % ============================================
+\iffalse
+\begin{enumerate}
+	\item
+		Super easy. It is the exact same logic as the minimum spanning tree.
+		For no particular
+		reason, I am going to just do prims algorithm with a few words
+		changed around. The input is a connected graph, $G$, the output is a tree $T
+		\subset G$ that contains each vertex of $G$. 
+	\item I am going to use prims algorithm with minimum exchanged with
+		maximum.
+	\item 
+		\begin{algorithm}[h]
+			\KwData{Connected Graph $G$}\\
+			\KwResult{Maximum Spanning Tree, $T$}\\
+			UnvisitedVerts = $G$.verts\\
+			VisitedVerts = []\\
 
-TODO: your answer goes between these lines
+			VisitedVerts.append($UnvisitedVerts$.pop)\\
+			\While{UnvisitedVerts $not$ empty}
+			{
+				FindPoop
+
+
+				}
+			
+		\end{algorithm}
+	\item Termination
+	\item 
+			
+
+
+
+\end{enumerate}
+\fi
 
 % ============================================
 
@@ -74,8 +106,26 @@ Chapter 10, Question 1, (Feasible Flow)
 
 % ============================================
 
-TODO: your answer goes between these lines
-
+\subsection*{Sidenote - Interesting Idea}
+We have to mention the proof technique we did not end up going with because it
+is interesting. That idea is to let $f'$ be the maximal flow in some flow
+network. The we could use the proof of algorithm correctness to show there must
+exist a flow of size $|f'|-|f|$, otherwise the algorithm may not return the
+maximal flow. Our idea is a little more solid, though.
+\subsection*{Idea}
+Basically use the existence of $f'$ to show it has to exist.
+\subsection*{Proof - Contradiction}
+As in the problem statement, take $G$ to be the original flow network and $G_f$ to be the residual flow network of 
+$f$. The idea is to create a generic construction of a flow of magnitude $|f'| -
+|f|$ by leveraging flow $f'$. Suppose we cannot. Then by flow decomposition, we
+cannot make a flow of magnitude greater than $|f'| - |f|$. If we could, we could
+ reduce the flow value to $|f'| - |f|$ by reducing the amount of flow we send
+ through each edge. Then by the
+augmenting path algorithm, the largest possible flow we can make in $G$ must be
+less than $|f| + (|f'| - |f|)$. But we already know this isn't true because
+of
+$|f'|$. Then by contradiction, there must exist a flow in $G_f$ with value $|f'|
+- |f|$, as desired. \qed
 % ============================================
 
 
